@@ -1,15 +1,13 @@
 # virtualbox-scripts
 Scripts for managing virtualbox VMs
 
-## powerOnOff_VmsVirtualbox.sh
+* powerOnOff_VmsVirtualbox.sh
 
 Could shutdown and boot automatically VMs. For the boot to work they had to be
 shutdown with the script first.
 
 Made for bacula but will work with any backup solution that could
 launch scripts before and after the initiation of the backup.
-
-### Usage
 
 ```bash
 -s, --shutdown, --poweroff"
